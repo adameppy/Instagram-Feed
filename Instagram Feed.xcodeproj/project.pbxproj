@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6842DF3D1C5AE85100485045 /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6842DF3C1C5AE85100485045 /* InstagramCell.swift */; };
 		686272F81C5858B600EA6B95 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686272F71C5858B600EA6B95 /* PhotoViewController.swift */; };
 		68FB2F9A1C58501900387769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB2F991C58501900387769 /* AppDelegate.swift */; };
 		68FB2F9F1C58501900387769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FB2F9D1C58501900387769 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6842DF3C1C5AE85100485045 /* InstagramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
 		686272F71C5858B600EA6B95 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		68FB2F961C58501900387769 /* Instagram Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FB2F991C58501900387769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				68FB2FA01C58501900387769 /* Assets.xcassets */,
 				68FB2FA21C58501900387769 /* LaunchScreen.storyboard */,
 				68FB2FA51C58501900387769 /* Info.plist */,
+				6842DF3C1C5AE85100485045 /* InstagramCell.swift */,
 			);
 			path = "Instagram Feed";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				68FB2F9A1C58501900387769 /* AppDelegate.swift in Sources */,
 				686272F81C5858B600EA6B95 /* PhotoViewController.swift in Sources */,
+				6842DF3D1C5AE85100485045 /* InstagramCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
