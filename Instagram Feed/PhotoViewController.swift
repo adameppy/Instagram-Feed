@@ -121,14 +121,29 @@ class PhotoViewController: UIViewController, UITableViewDataSource, UITableViewD
         return 50
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        let cell = sender as! UITableViewCell
+        let indexPath = TableView.indexPathForCell(cell)
+        let info = data![indexPath!.section]
+        let photoDetailViewController = segue.destinationViewController as! PhotoDetailsViewController
+        photoDetailViewController.photo =  info
+        
+        
+       /* let images = info["images"] as! NSDictionary
+        let resolution = images["standard_resolution"] as! NSDictionary
+        let photoURL = resolution["url"] as! String
+        let photoDetailViewController = segue.destinationViewController as! PhotoDetailsViewController
+        photoDetailViewController.photo =  photoURL
+        */
+        
+        
     }
-    */
+
 
 }

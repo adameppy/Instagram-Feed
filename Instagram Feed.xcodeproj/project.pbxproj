@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6842DF3D1C5AE85100485045 /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6842DF3C1C5AE85100485045 /* InstagramCell.swift */; };
 		686272F81C5858B600EA6B95 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686272F71C5858B600EA6B95 /* PhotoViewController.swift */; };
+		688EF6B41C64238B00B00477 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688EF6B31C64238B00B00477 /* PhotoDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		68FB2F9A1C58501900387769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB2F991C58501900387769 /* AppDelegate.swift */; };
 		68FB2F9F1C58501900387769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FB2F9D1C58501900387769 /* Main.storyboard */; };
 		68FB2FA11C58501900387769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FB2FA01C58501900387769 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		6842DF3C1C5AE85100485045 /* InstagramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
 		686272F71C5858B600EA6B95 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		688EF6B31C64238B00B00477 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		68FB2F961C58501900387769 /* Instagram Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FB2F991C58501900387769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68FB2F9E1C58501900387769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				68FB2FA21C58501900387769 /* LaunchScreen.storyboard */,
 				68FB2FA51C58501900387769 /* Info.plist */,
 				6842DF3C1C5AE85100485045 /* InstagramCell.swift */,
+				688EF6B31C64238B00B00477 /* PhotoDetailsViewController.swift */,
 			);
 			path = "Instagram Feed";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688EF6B41C64238B00B00477 /* PhotoDetailsViewController.swift in Sources */,
 				68FB2F9A1C58501900387769 /* AppDelegate.swift in Sources */,
 				686272F81C5858B600EA6B95 /* PhotoViewController.swift in Sources */,
 				6842DF3D1C5AE85100485045 /* InstagramCell.swift in Sources */,
@@ -328,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Instagram Feed/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Instagram-Feed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -340,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Instagram Feed/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Instagram-Feed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
